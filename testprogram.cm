@@ -1,0 +1,19 @@
+# Author: Overxfl0w 13 #
+# Asigna el valor del registro j=1 al registro i=0 #
+
+# SEGMENT DATA #
+[(0,2),(1,5),sum]
+
+# SEGMENT CODE #
+
+pre(0,2);
+goto(0);
+pre(2,4);
+goto(2);
+pre(1,8);
+suc(0);
+suc(2);
+goto(4);
+pre(2,11);
+suc(1);
+goto(8);
