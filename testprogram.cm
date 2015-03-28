@@ -2,7 +2,7 @@
 # Asigna el valor del registro j=1 al registro i=0 #
 
 # SEGMENT DATA #
-[(0,2),(1,5),sum]
+[(0,2),(1,5)]
 
 # SEGMENT CODE #
 
